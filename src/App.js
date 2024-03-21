@@ -1,6 +1,4 @@
 import React from 'react';
-import { Get } from './Get';
-
 
 function App() {
  
@@ -9,8 +7,6 @@ function App() {
 
   return (
     <div className="App">
-
-      <Get/>
 
     </div>
   );
