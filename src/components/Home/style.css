@@ -6,12 +6,7 @@
   align-items: center;
   justify-content: center;
 }
-.container{
-  max-width: 1920px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-}
+
 .Navbar {
   display: flex;
   align-items: center;
@@ -24,10 +19,11 @@
   background-color: rgba(0, 0, 0, 0.597);
   color: white;
   padding: 0 40px 0 60px;
+  z-index: 10;
 }
 
 .logo {
-  height:60%;
+  height: 90%;
   width: 60px;
   background: url("../../../public/Azz_Logo.svg");
   background-size: cover;
@@ -68,8 +64,9 @@
   align-items: center;
   justify-content: space-between;
   /* background-color: #fff; */
-  width: 85%;
+  width: 90%;
   height: 50%;
+  padding: 0 10% 0 0 ;
 }
 .home-content-text {
   padding: 50px;
@@ -93,24 +90,21 @@
 
 .motion-text-about {
   color: white;
-  font-size: 80px;
+  font-size: 60px;
 }
 .motion-text{
   color: #994ef6;
-  font-size: 80px;
+  font-size: 60px;
 }
-
 /* ============================== 3d Logo =========================================================================================*/
 .isometric-bg {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 25%;
+  width: 30%;
   height: 100%;
-  z-index: 0;
-  left: -100px;
-  margin-top: 300px;
+  /* background-color: #fff; */
   background: radial-gradient(#0b39db, #231237, #0e1129, #0e1129);
 }
 
@@ -139,10 +133,12 @@
   transform: translate(-50%, -50%) rotateX(0deg) rotateZ(0deg);
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.8);
   animation: none;
+  animation: animate 2s linear infinite;
 }
 .isometric:hover:before {
   transform: skewX(-45deg) scaleY(0);
 }
+
 
 .isometric:before {
   content: "";

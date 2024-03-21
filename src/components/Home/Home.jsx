@@ -7,7 +7,7 @@ import { fadeIn } from "../../variants";
 
 const Home = () => {
   return (
-    <div className="Home container">
+    <div className="Home">
       <div className="Navbar">
         <div className="logo"></div>
         <ul>
@@ -38,7 +38,7 @@ const Home = () => {
           >
             <h1 className="motion-text"></h1>
             <TypeAnimation
-              sequence={["Рекламу", 2000, "Дизайн", 2000]}
+              sequence={["Рекламу", 2000, "Дизайн", 2000,]}
               speed={50}
               className="motion-text"
               wrapper="h1"
