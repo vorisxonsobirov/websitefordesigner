@@ -5,13 +5,12 @@ import SecondPage from "./components/secondPage/SecondPage";
 import Packages from "./components/Packages/Packages";
 import Stage from "./components/Stages/Stages";
 function App() {
-
   return (
     <div className="App">
       <Home />
-      <SecondPage/>
-      <Packages/> 
-      <Stage/>
+      <SecondPage />
+      <Stage />
+      <Packages />
     </div>
   );
 }

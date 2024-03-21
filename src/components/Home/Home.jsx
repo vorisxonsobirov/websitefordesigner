@@ -4,6 +4,7 @@ import "./style.css";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { fadeIn } from "../../variants";
+import Logo3d from "./3dLogo";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
           <motion.h1
             variants={fadeIn("up", 0)}
             initial="hidden"
-            whileInView={"show"}
+            animate={"show"}
             className="motion-text-about"
             viewport={{ once: false, amount: 0.7 }}
           >
@@ -32,7 +33,7 @@ const Home = () => {
           <motion.div
             variants={fadeIn("up", 0.5)}
             initial="hidden"
-            whileInView={"show"}
+            animate={"show"}
             viewport={{ once: false, amount: 0.7 }}
             className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
           >
@@ -47,12 +48,18 @@ const Home = () => {
             />
           </motion.div>
           
-          <span>
+          <motion.span
+            variants={fadeIn("up", 0.7)} // Передаем объект анимации fadeIn
+            initial="hidden"
+            animate="show"
+            viewport={{ once: false, amount: 0.7 }}
+          >
             <p>для брендов</p>
             <p>для приложении</p>
             <p>сервисов</p>
-          </span>
+          </motion.span>
         </div>
+          <Logo3d/>
       </div>
     </div>
   );

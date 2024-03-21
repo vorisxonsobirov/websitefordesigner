@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const Logo = () => {
+const Logo3d = () => {
   return (
     <>
       <div className="isometric-bg">
@@ -13,4 +13,4 @@ const Logo = () => {
   );
 };
 
-export default Logo;
+export default Logo3d;
