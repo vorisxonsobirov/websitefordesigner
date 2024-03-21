@@ -4,6 +4,7 @@ import "./style.css";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { fadeIn } from "../../variants";
+import Logo3d from "./3dLogo";
 
 const Home = () => {
   return (
@@ -53,6 +54,7 @@ const Home = () => {
             <p>сервисов</p>
           </span>
         </div>
+          <Logo3d/>
       </div>
     </div>
   );

@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Home />
       <SecondPage/>
-      <Packages/> 
       <Stage/>
+      <Packages/> 
     </div>
   );
 }
