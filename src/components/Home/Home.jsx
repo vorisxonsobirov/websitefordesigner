@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "./3dLogo";
 import "./style.css";
-import { color, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { fadeIn } from "../../variants";
 
@@ -53,7 +53,6 @@ const Home = () => {
             <p>сервисов</p>
           </span>
         </div>
-        <Logo />
       </div>
     </div>
   );
