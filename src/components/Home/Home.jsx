@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "./3dLogo";
 import "./style.css";
-import { color, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { fadeIn } from "../../variants";
 
@@ -22,7 +22,7 @@ const Home = () => {
           <motion.h1
             variants={fadeIn("up", 0)}
             initial="hidden"
-            whileInView={"show"}
+            animate="show" // Изменено с whileInView на animate
             className="motion-text-about"
             viewport={{ once: false, amount: 0.7 }}
           >
@@ -32,8 +32,7 @@ const Home = () => {
           <motion.div
             variants={fadeIn("up", 0.5)}
             initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
+            animate="show" // Изменено с whileInView на animate
             className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
           >
             <h1 className="motion-text"></h1>
@@ -46,12 +45,17 @@ const Home = () => {
               href="#"
             />
           </motion.div>
-          
-          <span>
+
+          <motion.span
+            variants={fadeIn("up", 0.7)}
+            initial="hidden"
+            animate="show" // Изменено с whileInView на animate
+            viewport={{ once: false, amount: 0.7 }}
+          >
             <p>для брендов</p>
             <p>для приложении</p>
             <p>сервисов</p>
-          </span>
+          </motion.span>
         </div>
         <Logo />
       </div>
