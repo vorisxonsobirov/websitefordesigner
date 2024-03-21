@@ -52,19 +52,6 @@ const SecondPage = () => {
                 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <div className="text_holder">
 
                 </div>
