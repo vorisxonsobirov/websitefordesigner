@@ -6,7 +6,12 @@
   align-items: center;
   justify-content: center;
 }
-
+.container{
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 .Navbar {
   display: flex;
   align-items: center;
@@ -22,7 +27,7 @@
 }
 
 .logo {
-  height: 90%;
+  height:60%;
   width: 60px;
   background: url("../../../public/Azz_Logo.svg");
   background-size: cover;
@@ -101,9 +106,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 25%;
   height: 100%;
-  /* background-color: #fff; */
+  z-index: 0;
+  left: -100px;
+  margin-top: 300px;
   background: radial-gradient(#0b39db, #231237, #0e1129, #0e1129);
 }
 

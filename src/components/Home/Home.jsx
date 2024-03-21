@@ -7,7 +7,7 @@ import { fadeIn } from "../../variants";
 
 const Home = () => {
   return (
-    <div className="Home">
+    <div className="Home container">
       <div className="Navbar">
         <div className="logo"></div>
         <ul>
