@@ -8,3 +8,18 @@
   width: 100%;
   height: auto;
 }
+
+.second-page {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.packages {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+

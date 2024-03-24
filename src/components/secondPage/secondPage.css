@@ -12,13 +12,13 @@
     height: auto;
     margin: 0 auto;
 }
-/* .main_holder{
-    background-image: url(../../assets/U1o89kiy5IEm1MDid90wigLMQ.jpg);
+.main_holder{
+  background-color: #0e1129;
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 .card_img {
     width: 320px;
     height: 600px;

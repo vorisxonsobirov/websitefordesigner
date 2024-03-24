@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "./3dLogo";
 import "./style.css";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
@@ -49,7 +48,7 @@ const Home = () => {
           </motion.div>
           
           <motion.span
-            variants={fadeIn("up", 0.7)} // Передаем объект анимации fadeIn
+            variants={fadeIn("up", 0.7)} 
             initial="hidden"
             animate="show"
             viewport={{ once: false, amount: 0.7 }}

@@ -3,6 +3,9 @@ import "./style.css";
 import { FaAngleDown } from "react-icons/fa6";
 import { IoChevronUpSharp } from "react-icons/io5";
 
+import { Canvas, useFrame } from '@react-three/fiber'
+
+
 const Accordion = ({ data }) => {
   const [accordionItems, setAccordionItems] = useState(
     data.map((item) => ({ ...item, open: false }))

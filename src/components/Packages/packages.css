@@ -12,13 +12,13 @@
     height: auto;
     margin: 0 auto;
 }
-/* .holder_backages{
-    background-image: url(../../assets/Ef6mzb9eZRangNHqxtO7hqEQZpQ.jpg);
+.holder_backages{
+    background-image: url(../../assets/CLYFU1WHrwl3xKHm0aQk6KFomVQ.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
-} */
+}
 .card{
     display: flex;
     flex-direction: column;

@@ -4,11 +4,14 @@
   padding: 50px;
   height: auto;
   width: 100%;
-  background-color: #0e1129;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-image: url(../../assets/U1o89kiy5IEm1MDid90wigLMQ.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .PageName {
   color: white;
@@ -23,6 +26,8 @@
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
   /* margin-top: 50px; */
 }
 
