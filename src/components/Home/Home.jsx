@@ -48,7 +48,7 @@ const Home = () => {
           </motion.div>
           
           <motion.span
-            variants={fadeIn("up", 0.7)} 
+            variants={fadeIn("up", 0.7)} // Передаем объект анимации fadeIn
             initial="hidden"
             animate="show"
             viewport={{ once: false, amount: 0.7 }}
